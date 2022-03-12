@@ -1,0 +1,104 @@
+li {
+    list-style:none !important;
+    color:#FFF;
+    padding:10px;
+    font-size:20px;
+    text-decoration:none;
+    }
+
+    nav ul {
+    padding:0;
+    margin:0;
+    }
+
+    nav ul li {
+    list-style: none;
+    line-height:44px;
+    float:left;
+    }
+
+    nav ul li a {
+    color:#FFF;
+    padding:10px;
+    font-size:20px;
+    text-decoration:none;
+    }
+
+    li a:hover {
+    border-bottom:3px #FFF solid;
+    }
+    nav ul li ul { display:none; } /* Rend le menu déroulant caché par défaut */
+    nav ul li:hover ul { /* Affiche la dropNav au survol de la souris avec la class .drop */
+    z-index:99999;
+    display:list-item !important;
+    position:absolute;
+    margin-top:5px;
+    margin-left:-10px;
+    }
+    nav ul li:hover ul li {
+    float:none;
+    }
+      
+    
+nav{
+height: 60px;
+width: auto;
+background-color: green;
+padding-left: 300px;
+}
+ul {
+    list-style: none;
+}
+
+.icone {
+    position: relative;
+    bottom:10px ;
+}
+
+.bloc1 {
+    height: 80%;
+    width: 70%;
+    background-color: grey;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+
+}
+
+.bloc1 h3 {
+    font-size: 16px;
+
+}
+.texte{
+    height: 100%;
+    width: 40%;
+}
+.imag{
+    height: 100%;
+    width: 60%;
+
+}
+.image {
+    width: 100%;
+    height: 50%;
+}
+.image2 {
+    width: 100%;
+    height: 50%;
+}
+.image img{
+    width: 90%;
+    height: 90%;
+    position: relative;
+    bottom: -30px;
+    
+    
+}
+.image2 img{
+    width: 80%;
+    height: 100%;
+    margin-left: 102px;
+    position: relative;
+    bottom: -20px;
+}
+
