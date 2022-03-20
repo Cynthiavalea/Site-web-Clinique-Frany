@@ -1,6 +1,13 @@
+
+
+.body{
+  background-color: rgb(188, 219, 228);
+  box-sizing: border-box;
+}
+
 li {
     list-style:none !important;
-    color:#FFF;
+    color:rgb(8, 179, 45);
     padding:10px;
     font-size:20px;
     text-decoration:none;
@@ -18,18 +25,16 @@ li {
     }
 
     nav ul li a {
-    color:#FFF;
+    color:rgb(25, 228, 59);
     padding:10px;
     font-size:20px;
-    text-decoration:none;
+    
     }
 
-    li a:hover {
-    border-bottom:3px #FFF solid;
-    }
-    nav ul li ul { display:none; } /* Rend le menu déroulant caché par défaut */
-    nav ul li:hover ul { /* Affiche la dropNav au survol de la souris avec la class .drop */
-    z-index:99999;
+    
+    nav ul li ul { display:none;
+    z-index: 2; } 
+    nav ul li:hover ul { 
     display:list-item !important;
     position:absolute;
     margin-top:5px;
@@ -56,49 +61,128 @@ ul {
 }
 
 .bloc1 {
-    height: 80%;
+    height: 360px;
     width: 70%;
     background-color: grey;
-    margin-left: auto;
-    margin-right: auto;
     display: flex;
-
+    left: 200px;
+    position: relative;
+    font-size: 20px;
 }
 
 .bloc1 h3 {
-    font-size: 16px;
+    font-size: 11px;
 
 }
 .texte{
     height: 100%;
     width: 40%;
 }
-.imag{
-    height: 100%;
-    width: 60%;
-
-}
-.image {
-    width: 100%;
-    height: 50%;
+.image1 {
+    width: 385px;
+    height: 180px;
+    bottom: -15px;
+    position: relative;
+    padding-left: 120px;
+    
+    
 }
 .image2 {
-    width: 100%;
-    height: 50%;
-}
-.image img{
-    width: 90%;
-    height: 90%;
+    width: 250px;
+    height: 150px;
     position: relative;
-    bottom: -30px;
-    
-    
-}
-.image2 img{
-    width: 80%;
-    height: 100%;
-    margin-left: 102px;
-    position: relative;
-    bottom: -20px;
+    left: 30%;
+    bottom: -10px;
 }
 
+.bloc2 {
+    height: 203px;
+width: 100%;
+    background-color: gray;
+    margin-top: 30px;
+}
+
+.file{
+padding-top: 30px;
+height: 75%;
+width: 20%;
+margin-left: 450px;
+
+}
+.duo{
+margin-left: 41%;
+}
+
+.dual {
+    position: relative;
+    padding-left: 80px;
+
+}
+
+.element1 {
+    padding-left: 44%;
+}
+
+.element2 {
+    padding-left: 43%;
+}
+
+.element3 {
+    padding-left: 43%;
+}
+
+footer{
+    background-color: green;
+    margin-top: 50px;
+}
+.first{
+    display: flex;
+    
+}
+.suivre{
+
+    margin-right: 190px;
+}
+.contacts{
+    margin-right: 190px;
+    position: relative;
+    left: 20%;
+}
+.localisation{
+    position: relative;
+    left: 35%;
+    
+}
+
+.localisation h1, h2, h3 {
+    font-size: 10px;
+}
+
+.localisation img {
+position: relative;
+bottom: 15px;
+right: 40px;
+}
+
+.localisation h1 {
+    position: relative;
+    left: -3%;
+}
+
+.position {
+position: relative;
+bottom: 50px;
+}
+
+.second{
+background-color: gray;
+height: 20px;
+position: relative;
+padding-left: 80%;
+
+}
+
+.texte {
+    position: relative;
+    padding-left: 150px;
+}
